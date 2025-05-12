@@ -2,11 +2,11 @@
 
 ## 📦 Introduction
 
-Welcome to my Home Investment Analysis project! In one of my data science courses, we used R to prepare a real estate dataset to assist a fictional stakeholder in identifying mobile home parks that are viable investment opportunities. This case focused on data cleaning and preparation, ensuring that the dataset was formatted and ready for analysis. The data was provided in both wide and long formats, requiring multiple steps of transformation to meet business requirements.
+Welcome to my Home Investment Analysis project! In one of my data science courses, we used R to prepare a real estate dataset to assist a fictional stakeholder in identifying mobile home parks that are viable investment opportunities. This case focused on data cleaning and preparation, ensuring that the dataset was formatted and ready for analysis. The data was provided in both wide and long formats, requiring multiple transformation steps to meet business requirements.
 
 ## 📉 Problem Statement
 
-Our objective was to clean and consolidate property data for investment analysis. The goal was to provide a single, structured dataset with one row per property and columns representing relevant features, allowing the stakeholder to effectively assess investment opportunities in mobile home parks.
+The dataset was Our objective was to clean and consolidate property data for investment analysis. The goal was to provide a single, structured dataset with one row per property and columns representing relevant features, allowing the stakeholder to effectively assess investment opportunities in mobile home parks.
 
 ## 🗂️ Data Overview
 
