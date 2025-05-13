@@ -98,13 +98,13 @@ Here’s a step-by-step walkthrough of the data preparation process for the Home
 ### 6. 📊 Data Validation and Visual QA
 
 * Generated density plots for `price_usd` and `log(price_usd)` to identify potential outliers or data inconsistencies.
-![](plots/plot_1.png)
-![](plots/plot_2.png)
+<img src="plots/plot_1.png" width="750"/>
+<img src="plots/plot_2.png" width="750"/>
 * Created a histogram for the `age_years` column to visualize the distribution of property ages.
-![](plots/plot_3.png)
-![](plots/plot_4.png)
+<img src="plots/plot_3.png" width="750"/>
+<img src="plots/plot_4.png" width="750"/>
 * Constructed a bar chart to assess the distribution of properties by state and by purchase method.
-![](plots/plot_5.png)
+<img src="plots/plot_5.png" width="750"/>
 
 ### 7. ✅ Final Dataset
 
