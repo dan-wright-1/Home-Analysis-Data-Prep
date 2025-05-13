@@ -2,16 +2,15 @@
 
 ## 📦 Introduction
 
-Welcome to my Home Investment Analysis project! In one of my data science courses, we used R to prepare a real estate dataset to assist a fictional stakeholder in identifying mobile home parks that are viable investment opportunities. This case focused on data cleaning and preparation, ensuring that the dataset was formatted and ready for analysis. The data was provided in both wide and long formats, requiring multiple transformation steps to meet business requirements.
+Welcome to my Home Investment Data Cleaning project! In one of my data science courses, we used R to prepare a real estate dataset to assist a fictional stakeholder in identifying mobile home parks that are viable investment opportunities. This case focused on data cleaning and preparation, ensuring that the dataset was formatted and ready for analysis. 
 
 ## 📉 Problem Statement
 
-The dataset was Our objective was to clean and consolidate property data for investment analysis. The goal was to provide a single, structured dataset with one row per property and columns representing relevant features, allowing the stakeholder to effectively assess investment opportunities in mobile home parks.
+Two datasets were provided, one in wide and the other in long formats, requiring multiple transformation steps to meet business requirements. Our objective was to clean and consolidate property data for investment analysis by providing a single, structured dataset with one row per property and columns representing relevant features, allowing the stakeholder to effectively assess investment opportunities in mobile home parks.
 
 ## 🗂️ Data Overview
 
-* **Data Source:** Scraped data from a real estate investment website.
-* **Formats:** One wide dataset and one long dataset.
+* **Data Sources:** One wide dataset with location-related information and one long dataset with pricing and purchase-related information. Kaggle.
 * **Identifiers:** A unique `id` column links data between the wide and long formats.
 * **Key Features:** Property name, location, price, property size, occupancy rate, amenities, and payment methods.
 * **Data Issues:** Missing data, inconsistent formats, multiple price listings, and unstructured attribute columns.
@@ -22,7 +21,7 @@ The dataset was Our objective was to clean and consolidate property data for inv
 
    * Data Cleaning: Identified and resolved missing data in the wide dataset, ensuring that key columns had no `NA` values.
    * Data Conversion: Transformed price and percentage columns to numeric values and applied unit labels for clarity (e.g., `price_usd`).
-   * Pivoting: Consolidated the long dataset by pivoting attribute data to wide format, creating new indicator columns.
+   * Pivoting: Consolidated the long dataset by pivoting attribute data to a wide format, creating new indicator columns.
    * Joining Data: Merged the cleaned wide and long datasets using the `id` column.
 
 2. **Feature Engineering:**
@@ -34,7 +33,7 @@ The dataset was Our objective was to clean and consolidate property data for inv
 
    * Performed visual QA checks using density plots and histograms to validate data consistency.
 
-## 📊 Results and Findings
+## 📊 Results
 
 * Successfully consolidated two datasets into one comprehensive, wide-format dataset with all relevant property features.
 * Identified and resolved multiple pricing discrepancies, ensuring that the most recent listing price was retained.
@@ -55,9 +54,10 @@ The dataset was Our objective was to clean and consolidate property data for inv
 
 ## ✅ Key Takeaways
 
-* Data consolidation and cleaning are critical in transforming raw data into actionable insights for investment analysis.
+* Data consolidation and cleaning are critical in transforming raw data into actionable insights for analysis.
 * Creating binary indicator columns provides a structured approach to handling categorical attributes.
 * Visual QA checks are essential in validating data consistency and identifying anomalies.
+* Data cleaning is an art as much as it is a science, balancing standard procedures with skillful judgement.
 
 ---
 
@@ -69,7 +69,6 @@ Here’s a step-by-step walkthrough of the data preparation process for the Home
 
 * Imported both the wide and long datasets using `read_csv()`.
 * Conducted an initial review to assess missing values and data types.
-* Confirmed that the `id` column served as the primary key for both datasets, enabling accurate merging.
 
 ### 2. 🛠️ Data Cleaning – Wide Dataset
 
